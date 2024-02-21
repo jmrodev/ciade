@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error Page</title>
+    <style>
+      /* Add your custom styles here */
+      :root {
+        --color-primary: #33669969; /* Definición de una variable de color llamada color-primary */
+        --color-secondary: #ff000050; /* Definición de una variable de color llamada color-secondary */
+        --color-tertiary: #1a9b20; /* Definición de una variable de color llamada color-tertiary */
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(
+          to right,
+          var(--color-primary),
+          var(--color-secondary)
+        );
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 75vh;
+        max-width: 75%;
+        margin: auto;
+        padding: 20px;
+        background: linear-gradient(
+          to left,
+          var(--color-primary),
+          var(--color-secondary)
+        );
+
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        color: #ff0000;
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Oops! Something went wrong.</h1>
+      <p>We apologize for the inconvenience.</p>
+      <p>try again later.</p>
+    </div>
+  </body>
+</html>

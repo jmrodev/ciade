@@ -1,0 +1,33 @@
+/* PatientCard.css */
+
+
+.patient-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #221862;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 0;
+    box-shadow: 0 2px 4px rgba(180, 129, 129, 0.802);
+    min-width: 350px;
+  }
+  
+  .patient-card h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .patient-card p {
+    margin: 0;
+    font-size: 1rem;
+    color: #f2efef;
+  }
+  
+  .patient-card strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  /* Agrega más estilos según tus preferencias */
+  
